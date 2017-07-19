@@ -28,14 +28,7 @@
     font-size: 22px;
 }
   </style>
-<script>
-$('#foo2').click(function() {
-    $('#foo').toggleClass('active');
-});
-$('#foo').click(function() {
-    $('#foo2').toggleClass('active');
-});  
-  </script>
+
 </head>
 <body>
 <h1>ONCLICK-MAGIC: Mutual Pairing</h1>
@@ -43,6 +36,14 @@ $('#foo').click(function() {
     <hr>
 <br>
   <button id="foo">hello</button><button id="foo2">goodbye</button>
+    <script>
+$('#foo2').click(function() {
+    $('#foo').toggleClass('active');
+});
+$('#foo').click(function() {
+    $('#foo2').toggleClass('active');
+});  
+  </script>
 <br>
     <hr>
 <br>
