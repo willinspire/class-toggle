@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to onclick-magic
+
+Two elements which toggle each other's "onclick" event
 
 You can use the [editor on GitHub](https://github.com/willinspire/onclick-magic/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
