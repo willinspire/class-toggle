@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mutual Pairing</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="description" content="Discover the magic of mutually paired HTML "onclick" events.">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="mutual pairing, onclick, html,onclick event">
+<style>
+#foo {
+    background-color: green;
+    color: white;
+    font-size: 22px;
+}
+#foo2 {
+    background-color: green;
+    color: white;
+    font-size: 22px;
+}
+#foo.active {
+    background-color: red;
+    color: white;
+    font-size: 22px;
+}
+#foo2.active {
+    background-color: red;
+    color: white;
+    font-size: 22px;
+}
+  </style>
+<script>
+$('#foo2').click(function() {
+    $('#foo').toggleClass('active');
+});
+$('#foo').click(function() {
+    $('#foo2').toggleClass('active');
+});  
+  </script>
+</head>
+<body>
+<h1>ONCLICK-MAGIC: Mutual Pairing</h1>
+<br>
+<hr>
+<br>
+  <button id="foo">hello</button><button id="foo2">goodbye</button>
+</body>
+</html>
