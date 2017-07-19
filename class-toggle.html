@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>toggleClass demo</title>
+  <style>
+  * {
+    box-type: border;
+  }
+  p {
+    margin: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .classA {
+    color: blue;
+    background: white;
+  }
+  .classB {
+    color: white
+    background: blue;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+  <h1>Class Togle</h1>
+  <h3>Toggle the button collors by pressing the buttons</h3>
+  <hr>
+ <br>
+<button class="classA">TOGGLE ME</button><br>
+<br>
+<button class="classA">TOGGLE ME</button><br>
+<br>
+<button class="classA">TOGGLE ME</button><br>
+<br>
+<button class="classA">TOGGLE ME</button><br>
+ 
+<script>
+$( "button" ).click(function() {
+  $( this ).toggleClass( "classB" );
+});
+</script>
+ 
+</body>
+</html>
