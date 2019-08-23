@@ -63,6 +63,6 @@ $('#b03').click(function() {$(this).toggleClass('tc-grey');$(this).toggleClass('
 $('#b04').click(function() {$(this).toggleClass('tc-red');$(this).toggleClass('tc-red-bg-w');});
 ```
 
-The jQuery snippet above points to each respective button `id` (signified by the `#` symbol). It then defines a new function which will be triggered if that button is clicked. Each function defined in this way is set to toggle the `class` of the respective button (using `toggleClass`), and the options being toggled are two of the classes we defined above in CSS (see step #2 above).
+The jQuery snippet above points to each respective button `id` (signified by the `#` symbol). It then defines a new function which will be triggered if that button is clicked. Each function defined in this way is set to toggle the `class` of the respective button (using `toggleClass`), and the options being toggled are two of the classes we defined above in CSS (see [step #2](https://github.com/willinspire/class-toggle/blob/master/README.md#2-create-some-styles-in-css) above).
 
 
