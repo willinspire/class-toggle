@@ -1,5 +1,5 @@
-## Welcome to onclick-magic
+## class-toggle
 <br><br>
-Buttons may alter their own class through a toggle written in JavaScript. <br>
+Toggle HTML class properties with Javascript. <br>
 [View Demo](https://willinspire.github.io/class-toggle/view/index.html)
 
