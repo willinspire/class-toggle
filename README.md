@@ -1,7 +1,6 @@
 ## class-toggle
-<br>
-Toggle HTML class properties with Javascript. <br>
-==> [View Demo](https://willinspire.github.io/class-toggle/view/index.html)
+
+Toggle HTML class properties with Javascript. [View Demo](https://willinspire.github.io/class-toggle/view/index.html)
 
 <hr>
 
